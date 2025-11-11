@@ -1,0 +1,51 @@
+    1  git config --global user.name "Korsun Andriy"
+    2  git config --global user.email blazbluepsp@gmail.com
+    3  cd git/
+    4  git clone [200~https://github.com/Korsunandriy-debug/HW_10.git~
+    5  git clone https://github.com/Korsunandriy-debug/HW_10.git
+    6  cd HW_10/
+    7  touch text_ignore.txt
+    8  nano gitignore
+    9  nano .gitignore
+   10  git status
+   11  git add
+   12  git add .gitignore
+   13  git commit
+   14  cd Desktop/
+   15  cd GOIT/
+   16  cd git/HW_10/
+   17  git commit -m "Внесення змін"
+   18  touch main_test.txt
+   19  git add main_test.txt
+   20  git commit -m "Новий файл"
+   21  git branch develop
+   22  git checkout develop
+   23  touch.exe develop_test.txt
+   24  git add develop_test.txt
+   25  touch develop_test.txt
+   26  git add develop_test.txt
+   27  git commit -m "Нова гілка новий файл"
+   28  nano develop_test.txt
+   29  git status
+   30  git add
+   31  git add .
+   32  git add develop_test.txt
+   33  git commit -m "Оновлення файлу"
+   34  git checkout main
+   35  git merge develop
+   36  git log
+   37  cd Desktop/
+   38  cd GOIT/
+   39  cd git/
+   40  git checkout main
+   41  cd HW_10/
+   42  git checkout main
+   43  command_list.csv
+   44  git add .
+   45  command_list.csv
+   46  git commit 
+   47  git push
+   48  command_list.csv
+   49  cat command_list.csv
+   50  command_list.csv
+   51  history > command_list.csv
